@@ -2,12 +2,13 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
 import { LoadCrypto } from '../Redux/CryptoReducer';
+import Crypto from './Crypto';
 
 const Pages = () => {
     const dispatch = useDispatch();
     const myState = useSelector((state) => state);
     useEffect(() => {
-      if (myState.length ===0) {
+      if (myState.length === 0) {
         dispatch(LoadCrypto());
       }
     }, []);
@@ -39,6 +40,12 @@ const Pages = () => {
           })
           .map((element) => (
             <link key={element.id} to={'/${element.id'}>
+              <Crypto
+                key={element.id}
+                name={element.name}
+                symbol={element.symbol}
+                icon={element.icon}
+              />
             </link>
           ))}
         </div>
