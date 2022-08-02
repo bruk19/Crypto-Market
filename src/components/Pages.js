@@ -29,6 +29,19 @@ const Pages = () => {
              }
          }} 
         />
+        <div className='card-container'>
+          {myState
+          .flter((element) => {
+            const filter = search.get('filter');
+            if (!filter) return true;
+            const name = element.name.toLowerCase();
+            return name.startsWith(filter.toLowerCase());
+          })
+          .map((element) => (
+            <link key={element.id} to={'/${element.id'}>
+            </link>
+          ))}
+        </div>
     </div>
     </>
   )
