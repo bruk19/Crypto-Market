@@ -56,3 +56,36 @@ header {
   font-size: 1.1rem;
   color: rgb(184, 179, 179);
 }
+
+.crypto-container input:focus,
+.crypto-container input:active {
+  border: none;
+}
+
+.crypto-container .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.crypto-container .card-container .crypto-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.712);
+  cursor: url("./images/cursor-white.png"), auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.crypto-container .card-container .crypto-card:hover {
+  background-color: var(--hover-c);
+}
