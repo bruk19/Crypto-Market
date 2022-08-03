@@ -1,57 +1,58 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import { LoadCrypto } from '../Redux/CryptoReducer';
 import Crypto from './Crypto';
 
 const Pages = () => {
-    const dispatch = useDispatch();
-    const myState = useSelector((state) => state);
-    useEffect(() => {
-      if (myState.length === 0) {
-        dispatch(LoadCrypto());
-      }
-    }, []);
+  const dispatch = useDispatch();
+  const myState = useSelector((state) => state);
+  useEffect(() => {
+    if (myState.length === 0) {
+      dispatch(LoadCrypto());
+    }
+  }, []);
 
-    const [search, setSearch] = useSearchParams();
+  const [search, setSearch] = useSearchParams();
   return (
     <>
-    <div className='search-bar'>
+      <div className="crypto-container">
         <input
-            type='text' 
-            value={search.get('filter') || ''}
-            placeholder='search crypto...' 
-            on onChange={(e) => {
-             const filter = e.target.value;
-             if (filter) {
-                setSearch({ filter });
-             } else {
-                setSearch({});
-             }
-         }} 
+          className="search-bar"
+          type="text"
+          value={search.get('filter') || ''}
+          placeholder="Search by Crypto name ..."
+          onChange={(e) => {
+            const filter = e.target.value;
+            if (filter) {
+              setSearch({ filter });
+            } else {
+              setSearch({});
+            }
+          }}
         />
-        <div className='card-container'>
+        <div className="card-container">
           {myState
-          .flter((element) => {
-            const filter = search.get('filter');
-            if (!filter) return true;
-            const name = element.name.toLowerCase();
-            return name.startsWith(filter.toLowerCase());
-          })
-          .map((element) => (
-            <link key={element.id} to={'/${element.id'}>
-              <Crypto
-                key={element.id}
-                name={element.name}
-                symbol={element.symbol}
-                icon={element.icon}
-              />
-            </link>
-          ))}
+            .filter((element) => {
+              const filter = search.get('filter');
+              if (!filter) return true;
+              const name = element.name.toLowerCase();
+              return name.startsWith(filter.toLowerCase());
+            })
+            .map((element) => (
+              <Link key={element.id} to={`/${element.id}`}>
+                <Crypto
+                  key={element.id}
+                  name={element.name}
+                  symbol={element.symbol}
+                  icon={element.icon}
+                />
+              </Link>
+            ))}
         </div>
-    </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Pages
+export default Pages;
