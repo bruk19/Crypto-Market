@@ -7,7 +7,7 @@
 header {
   width: 100%;
   height: 6rem;
-  background-color: rgb(53, 107, 156);
+  background-color: rgb(42, 75, 105);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5rem;
+  padding-left: 5rem;
 }
 
 .logo img {
@@ -44,10 +44,11 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  background-color: rgb(39, 70, 82);
 }
 
 .crypto-container input {
-  background-color: var(--hover-c);
+  background-color: #285d92;
   border: none;
   outline: none;
   border-radius: 10px;
@@ -81,17 +82,16 @@ header {
   height: 150px;
   border-radius: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.712);
-  cursor: url("./images/cursor-white.png"), auto;
   text-align: center;
   padding: 10px;
 }
 
 .crypto-container .card-container .crypto-card:hover {
-  background-color: var(--hover-c);
+  background-color: #095098
 }
 
 .single-crypto i:hover {
-  color: rgba(255, 0, 0, 0.514);
+  color: rgba(221, 45, 14, 0.514);
 }
 
 .crypto-container .card-container .crypto-card i {
@@ -114,6 +114,7 @@ header {
 .single-crypto {
   padding: 40px 20px;
   position: relative;
+  background-color: rgb(96, 116, 180);
 }
 
 .single-crypto .single-crypto-infos {
@@ -241,12 +242,31 @@ header {
   color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
-  header .logo span {
-    font-size: 30px;
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
-  header .logo img {
-    width: 50px;
+  .logo {
+    position: relative;
+    left: -80px;
+  }
+
+  .logo img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .logo span {
+    font-size: 2rem;
+  }
+
+  .feature {
+    font-size: 1.5rem;
+    display: flex;
+    position: relative;
+    right: -30px;
   }
 }
