@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test if header render correctly 1`] = `
+exports[`Test if Nav render correctly 1`] = `
 <header>
   <div
     className="logo"
