@@ -2,6 +2,7 @@
 
 # Project Name :  Crypto-Market App
 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -23,18 +24,8 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-## Built With
+## Built Wih
 
 - Major languages : JavaScript , JSX and CSS
 - Library and Framework : `React, React-redux, Jest, React-test-renderer`
@@ -57,6 +48,13 @@ To get a local copy up and running follow these simple example steps.
 - Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer;
 - To be okay with javaScript ES6
 - Knowledge of HTML and CSS.
+
+### Setup 🎰
+
+- Click the [me](https://github.com/bruk19/Crypto-Market) and you'll land on the pure repository;
+- click on the green (🟢) button with `Code` Inscription;
+- You can choose to download the project or just clone it if you are familiar with Git and Github;
+- Follow normal step once download in your computer and use it as it's yours.
 
 ### Install
 
