@@ -42,7 +42,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Live Demo
 
- - Click [Here]() To open the live demo
+ - Click [Here](https://deploy-preview-1--ornate-swan-e0dae2.netlify.app/) To open the live demo
 
 ## Getting Started
 
