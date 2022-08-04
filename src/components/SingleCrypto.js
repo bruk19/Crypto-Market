@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux/es/exports';
+import { useSelector } from 'react-redux';
 import { useParams, Link } from 'react-router-dom';
 import Icon from 'react-icons-kit';
 import { arrowCircleLeft } from 'react-icons-kit/fa/arrowCircleLeft';

@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import store from '../Redux/configureStore';
 import Nav from '../Components/Nav';
 
-it('Test if header render correctly', () => {
+it('Test if Nav render correctly', () => {
   const TREE = TestRenderer.create(
     <Provider store={store}>
       <BrowserRouter>
