@@ -1,3 +1,8 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Project Name :  Crypto-Market App
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -19,52 +24,73 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built Wih
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Major languages : JavaScript , JSX and CSS
+- Library and Framework : `React, React-redux, Jest, React-test-renderer`
+- Technologies used : Github, Git, Gitflow and Linters
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Demo
 
-### `npm run eject`
+ - Click [Here](https://deploy-preview-1--ornate-swan-e0dae2.netlify.app/) To open the live demo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites ♻️
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- A personal computer connected to the internet;
+- Have a working and updated browser.
+- Have a local version control like git installed on your computer
+- Have an account on Github, as an online/remote Version Control System
+- Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer;
+- To be okay with javaScript ES6
+- Knowledge of HTML and CSS.
 
-## Learn More
+### Setup 🎰
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Click the [me](https://github.com/bruk19/Crypto-Market) and you'll land on the pure repository;
+- click on the green (🟢) button with `Code` Inscription;
+- You can choose to download the project or just clone it if you are familiar with Git and Github;
+- Follow normal step once download in your computer and use it as it's yours.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Install
 
-### Code Splitting
+- If you are familiar with git, Run `npm install` to get all dependencies required to run the linters checks, otherwise use the downloaded project on your computer without testing files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Run test 🧪
 
-### Analyzing the Bundle Size
+> Run the command bellow inside your `git bash` or command line interface..
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- `npm run start` : to run the project in your default web Browser
+- `npx stylelint "**/*.{css,scss}"` : for the `css` codebase and use of best practices. you can add
+- `npx eslint .` : for the `JavaScript` codebase and use of best practices
+- > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors coming from your `code editor`
 
-### Making a Progressive Web App
+👤 **Bruk Teshome**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [@githubhandle](https://github.com/bruk19)
+- Twitter: [@twitterhandle](https://twitter.com/Bruktesh)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/bruk-teshome-ab4325226)
 
-### Advanced Configuration
+## Contributing 🤝 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions, issues, and feature requests are welcome!
 
-### Deployment
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Show your support
 
-### `npm run build` fails to minify
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+
+- To [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the coolest design graphics inspiration
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
+
